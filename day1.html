@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const rollno = 10;
+        let name = 'Jessica';
+        let n1 = 100;
+        let n2 = 200;
+
+        // Method 1
+        console.log("JavaScript");
+        console.log("Roll No: " + rollno + "\nName: " + name);
+        console.log("n1 = " + n1 + ", n2 = " + n2);
+        console.log("Sum = " + (n1 + n2));
+
+        // Method 2
+        let statement = "Sum of " + n1 + " and " + n2 + " is " + (n1 + n2);  
+        console.log(statement);
+
+        // Using Backtick(`)  (Effective method)
+        // case 1
+        let statement_1 = `Sum of ${n1} and ${n2} is ${n1 + n2}`;
+        console.log(statement_1);
+        // case 2
+        console.log(`Sum of ${n1} and ${n2} is ${n1 + n2}`);
+        console.log(`Roll no: ${rollno}, Name: ${name}`);
+    </script> 
+</body>
+</html>
